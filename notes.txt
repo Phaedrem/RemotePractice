@@ -1,0 +1,39 @@
+Tasks:
+1. Create a Remote Repository:
+• Log in to your GitHub account.
+• Create a new repository named RemotePractice. Leave it public and
+initialize it with a README file.
+2. Clone the Repository:
+• Clone the RemotePractice repository to your local machine using git
+clone <repository-url>.
+• The URL can be found on the repository page on GitHub.
+3. Local Changes and Push:
+• Navigate to the cloned repository on your local machine.
+• Create a new file, notes.txt, and add some content to it.
+• Stage and commit the changes.
+• Push the changes to the remote repository using git push origin main.
+4. Branching:
+• Create a new branch locally named feature-branch.
+• Switch to this branch using git checkout -b feature-branch.
+• Make some changes in this branch, such as adding a new file or
+modifying notes.txt.
+• Commit these changes.
+5. Push New Branch:
+• Push the feature-branch to the remote repository using git push
+origin feature-branch.
+6. Pull Changes:
+• Go back to the master branch using git checkout master.
+• Simulate a scenario where someone else has made changes to the
+master branch on GitHub. Do this by editing the README file
+directly on GitHub.
+• Pull these changes to your local master branch using git pull origin
+main.
+7. Merge Branch:
+• Merge the changes from feature-branch into master on your local
+repository.
+• Use git merge feature-branch.
+• Push the updated main branch to the remote repository.
+Submission guide: submit a screenshot of your remote repository commits history.
+(get it from github website, click commits button). Create a remote_solution.txt
+file, type all the commands you used in each step in this file, and submit this .txt
+file.
